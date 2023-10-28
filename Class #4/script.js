@@ -1,1 +1,0 @@
-alert("Assalaamu Alaikum! This Is The 4th Class Of Sigma Web Dev Course's Website In Which We Learnt About HTML Headings, Paragraphs And Links.")
