@@ -1,0 +1,1 @@
+alert("In This Tutorial I Have Learnt About Core Web Vitals And SEO In HTML, Lighthouse Feature In Chrome Developer Mode, Setting Images Width Or Height For Fast Load Purpose And LCP, CLS And FID.");

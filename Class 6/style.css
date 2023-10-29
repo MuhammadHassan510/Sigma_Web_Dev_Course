@@ -1,0 +1,11 @@
+body{
+    background-color: rgb(64, 150, 226);
+    color: aliceblue;
+    text-align: center;
+}
+body a{
+    text-decoration: none;
+    color: aliceblue;
+    border-radius: 5px;
+    border: 2px solid aliceblue;
+}
