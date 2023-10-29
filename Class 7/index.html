@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Forms</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="#form">
+                Forms
+            </a>
+            <a href="#contact">
+                Contact Me
+            </a>
+            <a href="#about">
+                About Me
+            </a>
+        </nav>
+        <h1>
+            HTML Forms - Course Enrollment Form
+        </h1>
+    </header>
+    <div id="form">
+        <form action="post">
+            <div id="div1">
+                <label for="studentname">Full Name</label>
+                <input type="text" id="studentname" name="studentname" placeholder="Type Your Full Name">
+            </div>
+            <div id="div2">
+                <label for="fathername">Full Name</label>
+                <input type="text" id="fathername" name="fathername" placeholder="Type Your Father's Name">
+            </div>
+            <div id="div3">
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="male">Male</label>
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female">Female</label>
+            </div>
+            <div id="div4">
+                <label for="age">Age</label>
+                <input type="number" name="age" id="age" placeholder="Select Your Age">
+            </div>
+            <div id="div5">
+                <label for="married">Married</label>
+                <input type="checkbox" name="married" id="married" value="yes">
+                <label for="single">Single</label>
+                <input type="checkbox" name="single" id="single" value="yes">
+            </div>
+            <div id="div6">
+                <label for="address">Type In Your Full Address</label>
+                <br>
+                <textarea name="address" id="address" cols="30" rows="10"></textarea>
+            </div>
+            <div id="div7">
+                <label for="courses">Select Two Courses</label>
+                <select name="courses" id="courses">
+                    <option value="freelancing">Freelancing</option>
+                    <option value="webdev">Web Development</option>
+                    <option value="graphicdesigner">Graphic Designer</option>
+                    <option value="videoeditor">Video Editor</option>
+                    <option value="3danimator">3D Animator</option>
+
+                </select>
+            </div>
+        </form>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
