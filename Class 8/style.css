@@ -1,0 +1,29 @@
+p{
+    background-color: rgb(238, 153, 43);
+    border-radius: 3px;
+}
+
+a{
+    background-color: rgb(238, 208, 86);
+    border-radius: 3px;
+    text-decoration: none;
+    color: brown;
+}
+
+body{
+    background-color: aliceblue;
+}
+
+div{
+    background-color: aquamarine;
+}
+
+span{
+    background-color: aqua;
+}
+
+code ol{
+    background-color: burlywood;
+    border-radius: 10px;
+    font-weight: bold;
+}
