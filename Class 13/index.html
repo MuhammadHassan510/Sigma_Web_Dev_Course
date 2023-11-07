@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Entities, Code Tag & More On HTML</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      header {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        background-color: aliceblue;
+        height: auto;
+        border-radius: 0px 0px 20px 40px;
+      }
+
+      nav ul {
+        padding: 20px;
+        border-bottom: 2px solid blueviolet;
+      }
+
+      nav ul li {
+        display: inline;
+      }
+
+      nav a {
+        text-decoration: none;
+        list-style-type: none;
+        color: blueviolet;
+        padding: 10px;
+        border-radius: 10px 30px 10px 30px;
+      }
+
+      nav a:hover {
+        background-color: blueviolet;
+        color: aliceblue;
+      }
+
+      #htmlConclusion {
+        background-color: aliceblue;
+        color: rgb(82, 82, 173);
+        margin: 50px 100px;
+        padding: 20px 50px;
+        border: 2px solid blueviolet;
+        border-radius: 60px 60px 20px 60px;
+      }
+
+      #entities {
+        background-color: aliceblue;
+        color: rgb(82, 82, 173);
+        margin: 50px 100px;
+        padding: 20px 50px;
+        border: 2px solid blueviolet;
+        border-radius: 60px 20px 60px 60px;
+      }
+
+      #head1,
+      #head2,
+      #head3,
+      #head4,
+      #head5,
+      #head6,
+      #head7 {
+      text-align: center;
+        border-bottom: 2px solid blueviolet;
+        padding: 20px;
+      }
+
+      #para,
+      #para2,
+      #para3,
+      #para4,
+      #para5,
+      #para6,
+      #para7,
+      #para8 {
+        padding: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li>
+            <a href="#home">Home</a>
+          </li>
+          <li>
+            <a href="#about">About</a>
+          </li>
+          <li>
+            <a href="#contact">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <article id="htmlConclusion">
+        <h1 id="head1">HTML Conclusion</h1>
+        <p id="para">
+          In This Class We Are Concluding HTML Classes But There Is More On HTML
+          And We Have To Self-Explore Those Things, Don't Be Upset Because When
+          You Keep Practicing You Will Get To Know About That Particular Coding
+          Language Whether It Be HTML, CSS, JavaScript Or Any Other Language.For Learning More About HTML Head To These Websites.
+        </p>
+        <ul>
+          <li>
+            <a href="https://www.codewithharry.com/tutorial/html-home/">CodeWithHarry</a>
+          </li>
+          <li>
+            <a href="https://www.w3schools.com/html/">W3Schools</a>
+          </li>
+        </ul>
+      </article>
+      <article id="entities">
+        <h1 id="head2">HTML Entities & Some Tags</h1>
+        <p id="para2">
+          HTML Entities Are Used To Write Down HTML Tags As Syntax And Tell The
+          Browser Not To Use Them As HTML Tags Instead Use Them As Syntax.
+        </p>
+        <dl>
+          <dt>For Example:</dt>
+          <dd>
+            <p>
+              This Sentence Is Written In A (P) Tag But You Can Not See The
+              Syntax Here
+            </p>
+            <p>
+              &lt;p&gt;While In This You Can See The Syntax Because I Told The
+              Brower To Show The Syntax&lt;/p&gt;
+            </p>
+            For Using Tags As Syntax Proceed To The Link Given.
+            <a href="https://www.codewithharry.com/tutorial/html-entities/"
+              >Click Here</a
+            >
+            <p>Or For All HTML Entities</p>
+            <a href="https://www.w3schools.com/html/html_entities.asp"
+              >Click Here</a
+            >
+          </dd>
+        </dl>
+        <h3 id="head3">HTML Pre Tag</h3>
+        <p id="para3">
+          Pre Tag Writes Extra Spaces You Provide In It To Your Site Like
+          Example Below But For Syntax You Must Use HTML Entities.
+        </p>
+        <pre>
+                I am A Pre Tag               Me After Some Spaces 
+
+
+
+
+                And Some Line Breaks Well Obviously Not Using (Br) Tag.
+            </pre
+        >
+        <h3 id="head4">Quotation Tag</h3>
+        <p id="para4">
+          Quotation Tags Are Used To Write A Qoutation And The Brower Knows
+          Whatever Is Inside A Quotation Tag Is A Quotation.
+        </p>
+        <blockquote
+          cite="https://www.codewithharry.com/tutorial/quotation-tags/"
+        >
+          This Text Is Writen In A Blockquote Tag And I Have Reffered From Which
+          Site I Have Took This Text Or Quote.
+        </blockquote>
+        <q cite="https://www.codewithharry.com/tutorial/quotation-tags/">
+          And This Text Is Written In A q Tag And I Reffered The Website I Took
+          This Text From.
+        </q>
+        <p>
+          <a href="https://www.codewithharry.com/tutorial/quotation-tags/"
+            >For More Click On This Link</a
+          >
+        </p>
+        <h3 id="head5">Obsolete Tags In HTML</h3>
+        <p id="para5">
+          Some Tags That Were Used Before But Now Most Of The Browers Don't
+          Support Them Because Of HTML Version They Have Been Obsoleted Means
+          They Are Now Out-Dated And Are Not Recommend Instead You Can Use Thier
+          Substitute Tags Or Some Tags That Provide Styling So Now You Can Style
+          Them In CSS.You Can Also Use Them By Using Div And Span Tags And
+          Providing Style Attribute To Them.You Should Know What Obsolete Tags
+          Are And Even You Should Know That These Are Not Recommended Any More.
+        </p>
+        <p>
+          <a href="https://www.codewithharry.com/tutorial/html-obselete-tags/"
+            >Show Obsolete Tags And Their Substitute</a
+          >
+        </p>
+        <h3 id="head6">Code Tag In HTML</h3>
+        <p id="para6">
+          Code Tag, The Most Important Tag For Coders, It Is Used To Snippet
+          Your Code To Your Website So That People Can See It And Use It For
+          Their Practice. CodeWithHarry Used This Tag In His Website To Show The
+          Syntax And He Actually Used A CSS Library Named "Prism.js" And
+          "React.js" Don't Worry We'll Learn Them Later On.
+        </p>
+        <a href="https://www.codewithharry.com/tutorial/html-code-tags/"
+          >See His Code Snippets</a
+        >
+
+        <p id="para7">
+          Well If You Still Want To Use It Without CSS Library And React So Use
+          It With Pre Tag And Then Code Tag But Still You Have To Use Less Than
+          And Greater Than HTML Entities To Show It As It Is.Hera Is A ShortCut For Decreasing One Indent Space From Your Code Use Shift + TAB.
+        </p>
+        <pre>
+                <code>
+&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+&lt;head&gt;
+  &lt;meta charset="UTF-8"&gt;
+  &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+  &lt;title&gt;Document&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;
+                </code>
+            </pre>
+            <h3 id="head7">Canvas Tag In HTML</h3>
+            <p id="para8">
+              Canvas Is Mostly Used Through Javacsript And You Can Understand It As It Makes Graphical Shapes.
+            </p>
+            <a href="https://www.codewithharry.com/tutorial/html-canvas/">Explore Canvas Tag</a>
+      </article>
+    </main>
+  </body>
+</html>
