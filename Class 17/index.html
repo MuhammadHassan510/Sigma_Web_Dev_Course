@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Selectors MasterClass</title>
+    <style>
+        /* Element Selector (Type Selector)*/
+        div{
+            background-color: blueviolet;
+            color: aliceblue;
+        }
+        /* Class Selector */
+        .green{
+            background-color: aquamarine;
+            color: black;
+        }
+        /* ID Selector */
+        #white{
+            background-color: antiquewhite;
+            color: black;
+        }
+        /* Child Selector */
+        div > p{
+            background-color: cadetblue;
+        }
+        /* Descendent Selector */
+        span p{
+            background-color: chocolate;
+        }
+        /* Universal Selector */
+        *{
+            margin: 10;
+            padding: 10;
+        }
+        /* Pseudo Selector */
+        a:visited{
+            color: green;
+        }
+        a:link{
+            color: red;
+        }
+        a:hover{
+            color: goldenrod;
+        }
+    </style>
+</head>
+<body>
+    <h1>
+        CSS Selectors MasterClass
+    </h1>
+    <h2>
+        What Are Selectors In CSS?
+    </h2>
+    <p>
+        Selectors Are The HTML Elements Which We Use In CSS To Select That Particular Element In CSS And Style It And Remember It Can Be An ID You Give To An Element Or It Can Be A Class Or Element Itself, The Drawback Is That If You Select An Element Like Div And Change Its Background Color So All The Divs In HTML Will Change Their Background Color. If You Want To Style Or Color Just One Particular Div Or Any Element In Single You Must Provide It A Class Or An ID And Then Select That ID Or Class As A Selector And Style It.
+    </p>
+    <p>
+        I'm Using Internal CSS In This Class And Below Is An Example Of Div With Background Color BlueViolet And Color Property As Value AliceBlue.  
+    </p>
+    <h3>
+        Element Selector (Type Selector)
+    </h3>
+    <div>Hey I'm A Div.</div>
+    <div>Hey I'm Another Div With Same Properties And Values Because Me The Div Element Is Selected As The Selector In Internal CSS.</div>
+    <h3>
+        Class Selector
+    </h3>
+    <div class="green">Hey I'm Here Again The Div But This Time I Have Been Selected As A Class Selector With Background Color AquaMarine And Color Black.</div>
+    <h3>
+        ID Selector
+    </h3>
+    <div id="white">Hey I'm Here Again The Div But This Time I Have Been Selected As An ID Selector With Background Color AntiqueWhite And Color Black.</div>
+    <h3>
+        Child Selector
+    </h3>
+    <div>
+        Hey I'm A Div And I Have Been Selected As Element Selector But This Time I Have To Show You That I Have A Child Paragraph And I Selected It As A Child div > p So The Style I Gave Applies To Each Paragraph Tag In Div Element.
+        <p> Hey I'm Divs Child A Paragraph Tag.I Will Only Get Styled If I'm A Direct Child Of Div Else I Should Be Used As A Descendent Selector.</p> 
+    </div>
+    <h3>
+        Descendent Selector
+    </h3>
+    <span>
+        Hey I'm A Span And P Tag Is Not A Direct Child Of Mine Instead It Is My Grandchild So Here Comes The Descendent Selector Which Is To Use span Then Space Then p Tag Now Whether p Tag Is A Direct Child Or Grandchild Or GreatGrandChild Its Styles Will Surely Change.
+        <article>
+            <p>
+                Hey I'm A Paragraph And I'm Grandchild Of Span.
+            </p>
+        </article>
+    </span>
+    <h3>
+        Universal Selector
+    </h3>
+    <p>
+        Universal Selector Is * That Selects All The Elements In HTML And Changes Their Style In This Example I Have Given All The Elements Margin And Padding Of 10. 
+    </p>
+    <h3>
+        Pseudo Selector
+    </h3>
+    <p>
+        These Are Types Of Links You Can Change Their Styles If They Are Visited Or Active Or Not Visited (Link) Or When You Hover On Them
+    </p>
+    <a href="https://www.google.com">
+        Head Towards Google
+    </a>
+    <a href="https://www.facebook2.com">
+        Head Towards Facebook 2 Hahahaha
+    </a>
+    <h3>
+        <a href="https://www.codewithharry.com/tutorial/CSS-selectors/">To Learn More About Selectors By CodeWithHarry Click Here.</a>
+        <a href="https://www.w3schools.com/css/css_pseudo_classes.asp">To Learn More About Selectors By W3Schools Click Here.</a>
+    </h3>
+</body>
+</html>
