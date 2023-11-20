@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Box Model - Margin, Padding & Borders</title>
+    <style>
+        /* Universal Selector */
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        /* Class Selector */
+        .box{
+            background-color: aqua;
+        }
+        .box1{
+            color: yellow;
+            padding: 10px;
+            margin: 35px;
+            border: 2px solid blue;
+            height: 200px;
+            box-sizing: border-box;
+        }
+        .box2{
+            color: red;
+            padding: 10px;
+            margin: 25px;
+            border: 2px solid black;
+            height: 200px;
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+<body>
+    <h1>
+        CSS Box Model - Margin, Padding & Borders
+    </h1>
+    <p>
+        The CSS Box model defines how elements are rendered and how their dimensions are calculated.It describes the structure of an element as a rectangular box that has content, padding, a border, and a margin.The box model consists of four main components, which are
+    </p>
+    <h2>
+        1. Content
+    </h2>
+    <h2>
+        2. Padding
+    </h2>
+    <h2>
+        3. Border
+    </h2>
+    <h2>
+        4. Margin
+    </h2>
+    <img src="images/box model.png" alt="CSS Box Model" width="400">
+    <div class="box box1">I'm A Box</div>
+    <div class="box box2">I'm Another Box</div>
+    <a href="https://www.codewithharry.com/tutorial/css-box-model/">Learn More About CSS Box Model</a>
+    <h2>Box Sizing In CSS</h2>
+    <p>
+        When We Give An Element box-sizing Property With Value border-box So We Declare In CSS That Total Height Or Total Width Of That Elements Content Should Include Paddings And Borders Size Within The Height Or Width I Have Given For Example In Box 1 " I'm A Box " I Have Given Only Height Of 200px And Box Sizing Property So It Includes Padding And Border Too Like Content Is Given 176px, Padding Right & Left 10+10=20px, Border Right & Left 2+2=4px So Total Is 200px, Like So If You Give Width 200px Content Is 176px Padding Is Top & Bottom 10+10=20px And Border Is Top & Bottom 2+2=4px So Total Is 200px And Remember Margin Is Not Include In Both Width Or Height. 
+    </p>
+    <h2>
+        Margin Collapse
+    </h2>
+    <p>
+        Margin Collapse's Concept Is That If Two Element's Margins Are Overlapping So The Element That Has Higher Margin Both Elements Margin That Is Overlapping Will Be Set To That Higher Margin If They Are Same Like 25px And 25px So It'll Set 25px. 
+    </p>
+    <img src="images/margin collapse.png" alt="CSS Margin Collapse">
+</body>
+</html>
